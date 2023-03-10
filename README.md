@@ -8,3 +8,5 @@ This work proposes a workflow to measure risk and uncertainty in complex multiva
 
 
 This repository cointains the python code for multivariate geostatistical simulations with sum and fraction constraints for a bauxite deposit using several modules of the Geostatistical Software Library (GSLib).
+
+The article can be found at: [Application of risk assessment to improve sustainability in bauxite mining](https://doi.org/10.1016/j.resourpol.2021.102328)
