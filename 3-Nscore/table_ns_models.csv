@@ -1,0 +1,32 @@
+Variable,Structure,Contribution,Range NS,Range EW,Range vertical
+NS_RCG,Nugget Effect,0.0,0.0,0.0,0.0
+NS_RCG,Spherical,0.6,60.0,60.0,1.75
+NS_RCG,Spherical,0.1,170.0,170.0,1.8
+NS_RCG,Spherical,0.3,3000.0,3000.0,1.85
+NS_ATGc,Nugget Effect,0.1,0.0,0.0,0.0
+NS_ATGc,Spherical,0.55,60.0,60.0,1.5
+NS_ATGc,Spherical,0.15,500.0,500.0,1.7
+NS_ATGc,Spherical,0.2,5000.0,5000.0,2.5
+NS_STGc,Nugget Effect,0.0,0.0,0.0,0.0
+NS_STGc,Spherical,0.45,55.0,55.0,2.2
+NS_STGc,Spherical,0.18,250.0,250.0,2.3
+NS_STGc,Spherical,0.37,2200.0,2200.0,2.4
+NS_FEGc,Nugget Effect,0.05,0.0,0.0,0.0
+NS_FEGc,Spherical,0.55,65.0,65.0,1.65
+NS_FEGc,Spherical,0.4,2600.0,2600.0,2.0
+NS_TIGc,Nugget Effect,0.0,0.0,0.0,0.0
+NS_TIGc,Spherical,0.47,80.0,80.0,3.0
+NS_TIGc,Spherical,0.2,500.0,500.0,3.4
+NS_TIGc,Spherical,0.33,4000.0,4000.0,3.7
+NS_PPGc,Nugget Effect,0.0,0.0,0.0,0.0
+NS_PPGc,Spherical,0.62,50.0,50.0,1.2
+NS_PPGc,Spherical,0.23,500.0,500.0,3.5
+NS_PPGc,Spherical,0.15,10000.0,10000.0,6.0
+NS_AAG,Nugget Effect,0.1,0.0,0.0,0.0
+NS_AAG,Spherical,0.59,60.0,60.0,1.25
+NS_AAG,Spherical,0.21,550.0,550.0,7.0
+NS_AAG,Spherical,0.1,1500.0,1500.0,9.0
+NS_SRG,Nugget Effect,0.0,0.0,0.0,0.0
+NS_SRG,Spherical,0.35,65.0,65.0,2.0
+NS_SRG,Spherical,0.2,230.0,230.0,2.2
+NS_SRG,Spherical,0.45,2000.0,2000.0,2.4
