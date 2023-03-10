@@ -1,0 +1,31 @@
+                Parameters for GAMSIM_AVE
+                *************************
+START OF PARAMETERS:
+../data/lithology.dat        -file with lithology information
+0   7                        -   lithology column (0=not used), code
+9-Simulation_Orig_Units/1_end.out      -file with data
+1  3      3             -   number of variables, column numbers
+-97.0     1.0e21    -   trimming limits
+10-Validation/Vario/ST_1_end.out        -output file for variograms of realizations
+10-Validation/Vario/ST_1_end_avg.out        -output file for average variogram
+1604   584728.125    6.25                  -nx,xmn,xsiz
+684   9722528.125   6.25                  -ny,ymn,ysiz
+17    -8.25    0.5                  -nz,zmn,zsiz    
+1                         - number of realizations
+2  500                 -number of directions, number of lags
+ 1  0  0              -ixd(1),iyd(1),izd(1)
+ 0  0  1              -ixd(2),iyd(2),izd(2)
+1                     -standardize sill? (0=no, 1=yes)
+1                     -number of variograms
+1   1   1             -tail variable, head variable, variogram type
+type 1 = traditional semivariogram
+     2 = traditional cross semivariogram
+     3 = covariance
+     4 = correlogram
+     5 = general relative semivariogram
+     6 = pairwise relative semivariogram
+     7 = semivariogram of logarithms
+     8 = semimadogram
+     9 = indicator semivariogram - continuous
+     10= indicator semivariogram - categorical
+    

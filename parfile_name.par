@@ -1,0 +1,23 @@
+   *************************************************  
+                  MULTIVARIATE SIMULATION CHECK FOR SUM CONSTRAINTS   
+                  ************************************************* 
+START OF PARAMETERS:
+9-Simulation_Orig_Units/40_end.out           - simulation file
+-98.00 1.0e21               - trimming limits
+1604   684    17 1          - nx, ny, nz, nreal
+1 10                        - number of constraints to consider and maximum number of iterations
+100.00 0.001                - maximum sum of variables and tolerance for sum constraints 
+5                     - number of variables for sum constraint 1 
+2 3 4 5 6               - cols of variables  for sum constraint 1
+20.4023334194 0.1506008925 1.4044315986000002 0.3156414598 11.6367265075                - minimum of data for sum constraint 1
+61.970835371499994 18.0161615835 59.783716944700004 3.0938519608 32.5516062421                - maximum of data for sum constraint 1
+Error_report_sum.out        - report of the errors for sum constraints
+9-Simulation_Orig_Units/40_end_cor_temp.out          
+
+-----------------------------------------------------------------------------------
+NOTES TO HELP THE USER
+
+Correction:
+1. The algorithm corrects values outside the range of the data (min, max) to the closest boundary.
+2. The algorithm corrects values if the sum of simulated values is greater than sum_parameter + tolerance
+        	
